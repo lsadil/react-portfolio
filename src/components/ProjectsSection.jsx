@@ -3,12 +3,30 @@ import { ArrowRight, ExternalLink, Github, GithubIcon } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "test",
-        description: "qdklsjlkqsjdflqsdjkhf",
-        image: "/projects/",
-        tags: ["React", "Tailwind CSS"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "Somnia",
+        description: "Somnia is a narrative-driven 2D platformer built in Unreal Engine 5.",
+        image: "/projects/rNt52m.jpg",
+        tags: ["Unreal Engine 5", "C++", "Blueprints", "Pixel Art", "Narrative Design"],
+        demoUrl: "https://chaoticdreams.itch.io/somnia",
+        githubUrl: "https://github.com/lsadil/Somnia",
+    },
+    {
+        id: 2,
+        title: "Unannounced ARPG",
+        description: "Action-RPG developed in Unreal Engine 5.",
+        image: "/projects/bmk.jpg",
+        tags: ["Unreal Engine 5", "C++", "AI", "Animation", "Tools"],
+        demoUrl: "https://www.bigmonkey-entertainment.com/",
+        githubUrl: "https://www.bigmonkey-entertainment.com/",
+    },
+    {
+        id: 3,
+        title: "Carnet Magique",
+        description: "An immersive, eco-digital story device blending AR/game mechanics and nature education.",
+        image: "/projects/carnet_magique.png",
+        tags: ["Unity", "C#", "AR/VR", "Interactive Learning"],
+        demoUrl: "https://la-meduse-violette.com/carnet-magique/",
+        githubUrl: "https://la-meduse-violette.com/carnet-magique/",
     }
 ]
 
